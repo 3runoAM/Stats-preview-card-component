@@ -1,0 +1,28 @@
+.imagem.container {
+    position: relative;
+}
+
+.soft-purple{
+    width: 33.625rem;
+    height: 27.8125rem;
+    position: absolute;
+    border-radius: 0 0.625rem 0.625rem 0;
+    background-color: var(--soft-violet-trans);
+
+}
+
+.imagem {
+    width: 33.625rem;
+    height: 27.8125rem;
+    border-radius: 0 0.625rem 0.625rem 0;
+    opacity: 100%;
+}
+
+
+@media screen and (max-width: 376px) {
+    .imagem, .soft-purple {
+        width: 20.25rem;
+        height: 14.9375rem;
+        border-radius: .625rem .625rem 0 0;
+    }
+}
